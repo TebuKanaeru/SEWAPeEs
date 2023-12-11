@@ -5,14 +5,13 @@
           <div class="col-md-6 ">
             <div class="detail-box">
               <h1>
-                Sewa Playstation 5 <br>
+                Sewa Playstation<br>
                 Termurah di Bandung <br>
               </h1>
               <p>
                 Terdapat berbagai pilihan tipe dengan harga terjangkau
               </p>
-              <a href="">
-                Sewa Sekarang
+              <a href="<?= site_url('shoplist') ?>">Sewa Sekarang</>
               </a>
             </div>
           </div>

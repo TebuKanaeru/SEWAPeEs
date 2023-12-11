@@ -5,20 +5,36 @@
     </div>
    <div class="product-section">
     <div class="product">
-      <img src="<?= base_url('template/images/ps5std.png')?>" alt="Product 1">
+      <img src="<?= base_url('template/images/ps4.png')?>" alt="Product 1">
+      <h3>Playstation 4</h3>
+      <p>Storage 1 GB</p>
+    </div>
+
+    <div class="product">
+      <img src="<?= base_url('template/images/ps4slim.png')?>" alt="Product 2">
+      <h3>Playstation 4 Slim</h3>
+      <p>Storage 1 GB</p>
+    </div>
+
+    <div class="product">
+      <img src="<?= base_url('template/images/ps4pro.png')?>" alt="Product 2">
+      <h3>Playstation 4 Pro</h3>
+      <p>Storage 1 GB</p>
+    </div>
+
+    <div class="product">
+      <img src="<?= base_url('template/images/ps5std.png')?>" alt="Product 2">
       <h3>Playstation 5 SE</h3>
       <p>Storage 825 GB</p>
-      <span>Rp. 5.000.000/bulan</span>
-      <button>Detail</button>
     </div>
 
     <div class="product">
       <img src="<?= base_url('template/images/ps5de.png')?>" alt="Product 2">
       <h3>Playstation 5 DE</h3>
       <p>Non Storage</p>
-      <span>Rp. 4.000.000/bulan</span>
-      <button>Detail</button>
     </div>
+
+    
 
     <!-- Add more product entries as needed -->
 

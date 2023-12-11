@@ -37,7 +37,7 @@
       <div class="header_bottom">
         <div class="container-fluid">
           <nav class="navbar navbar-expand-lg custom_nav-container ">
-            <a class="navbar-brand" href=#>
+            <a class="navbar-brand" href="<?= site_url('/') ?>">
               <span>
                 SEWA PeEs
               </span>
@@ -50,15 +50,15 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav ">
                 <li class="nav-item active">
-                  <a class="nav-link" href=#>Home <span class="sr-only">(current)</span></a>
+                  <a class="nav-link" href="<?= base_url('/') ?>">Home <span class="sr-only">(current)</span></a>
                 <li class="nav-item">
-                  <a class="nav-link" href="#session1">Produk</a>
+                  <a class="nav-link" href="<?= base_url('#session1') ?>">Produk</a>
                 </li>
                  <li class="nav-item">
-                  <a class="nav-link" href="#session2">Services</a>
+                  <a class="nav-link" href="<?= base_url('#session2') ?>">Services</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#session3"> About</a>
+                  <a class="nav-link" href="<?= base_url('#session3') ?>"> About</a>
                 </li>
                 </li>
               </ul>
