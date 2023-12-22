@@ -10,4 +10,5 @@ class Checkout extends BaseController
         echo view('checkout');
         echo view('part_oth/footer');
     }
+    
 }

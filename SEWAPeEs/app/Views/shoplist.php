@@ -1,4 +1,4 @@
-    <div class="shoplist">
+<div class="shoplist">
         <span>
         Sewa Perbulan
         </span>
@@ -15,10 +15,9 @@
                 </tr>
             </thead>
             <tbody>
-                <tr data-id="1" data-name="Product 1" data-price="300000" data-image="<?= base_url('template/images/ps4.png')?>">
+                <tr data-id="1" data-name="Product 1" data-price="300000">
                     <td>
                         <div class="product-info">
-                            <img src="<?= base_url('template/images/ps4.png')?>" alt="Product 1">
                             <span>Playstation 4</span>
                         </div>
                     </td>
@@ -27,10 +26,9 @@
                     <td><button class="add-to-cart-btn" onclick="addToCart(1)">+Keranjang</button></td>
                 </tr>
 
-                <tr data-id="2" data-name="Product 2" data-price="400000" data-image="<?= base_url('template/images/ps4slim.png')?>">
+                <tr data-id="2" data-name="Product 2" data-price="400000">
                     <td>
                         <div class="product-info">
-                            <img src="<?= base_url('template/images/ps4slim.png')?>" alt="Product 2">
                             <span>Playstation 4 Slim</span>
                         </div>
                     </td>
@@ -39,10 +37,9 @@
                     <td><button class="add-to-cart-btn" onclick="addToCart(2)">+Keranjang</button></td>
                 </tr>
                 
-                <tr data-id="3" data-name="Product 3" data-price="500000" data-image="<?= base_url('template/images/ps4pro.png')?>">
+                <tr data-id="3" data-name="Product 3" data-price="500000">
                     <td>
                         <div class="product-info">
-                            <img src="<?= base_url('template/images/ps4pro.png')?>" alt="Product 3">
                             <span>Playstation 4 Pro</span>
                         </div>
                     </td>
@@ -51,10 +48,9 @@
                     <td><button class="add-to-cart-btn" onclick="addToCart(3)">+Keranjang</button></td>
                 </tr>
                 
-                <tr data-id="4" data-name="Product 4" data-price="700000" data-image="<?= base_url('template/images/ps5std.png')?>">
+                <tr data-id="4" data-name="Product 4" data-price="700000">
                     <td>
                         <div class="product-info">
-                            <img src="<?= base_url('template/images/ps5std.png')?>" alt="Product 4">
                             <span>Playstation 5 SE</span>
                         </div>
                     </td>
@@ -63,10 +59,9 @@
                     <td><button class="add-to-cart-btn" onclick="addToCart(4)">+Keranjang</button></td>
                 </tr>
                 
-                <tr data-id="5" data-name="Product 5" data-price="600000" data-image="<?= base_url('template/images/ps5de.png')?>">
+                <tr data-id="5" data-name="Product 5" data-price="600000">
                     <td>
                         <div class="product-info">
-                            <img src="<?= base_url('template/images/ps5de.png')?>" alt="Product 5">
                             <span>Playstation 5 DE</span>
                         </div>
                     </td>
@@ -124,7 +119,6 @@ function displayCart() {
         row.innerHTML = `
             <td>
                 <div class="product-info">
-                    <img src="${item.image}" alt="${item.name}">
                     <span>${item.name}</span>
                 </div>
             </td>
