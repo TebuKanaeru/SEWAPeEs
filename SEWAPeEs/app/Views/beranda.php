@@ -1,40 +1,44 @@
    <!--product section-->
-   
    <div id="session1" class="container-prop ">
     <div class="heading_container heading_center">
       <h2> Pilihan Playstation </h2>
     </div>
-
-    <div class="product-section-img">
-      <div class="product-image">
-            <img src="<?= base_url('template/images/ps4.png')?>" alt="Product 1">
-      </div>
-
-      <div class="product-image">
-            <img src="<?= base_url('template/images/ps4slim.png')?>" alt="Product 1">
-      </div>
-
-      <div class="product-image">
-            <img src="<?= base_url('template/images/ps4pro.png')?>" alt="Product 1">
-      </div>
-
-      <div class="product-image">
-            <img src="<?= base_url('template/images/ps5std.png')?>" alt="Product 1">
-      </div>
-
-      <div class="product-image">
-            <img src="<?= base_url('template/images/ps5de.png')?>" alt="Product 1">
-      </div>
-    </div>
-
-    <div class="product-section">
-    <?php foreach ($produk as $produkItem) : ?>
+   <div class="product-section">
     <div class="product">
-          <h3><?= $produkItem['nama_produk']; ?></h3>
-          <p>Stok yang tersedia: <?= $produkItem['stok']; ?></p>
-         </div>
-      <?php endforeach; ?>
+      <img src="<?= base_url('template/images/ps4.png')?>" alt="Product 1">
+      <h3>Playstation 4</h3>
+      <p>Storage 1 GB</p>
+      <p>Rp. 30.000/hari</p>
     </div>
+
+    <div class="product">
+      <img src="<?= base_url('template/images/ps4slim.png')?>" alt="Product 2">
+      <h3>Playstation 4 Slim</h3>
+      <p>Storage 1 GB</p>
+      <p>Rp. 30.000/hari</p>
+    </div>
+
+    <div class="product">
+      <img src="<?= base_url('template/images/ps4pro.png')?>" alt="Product 2">
+      <h3>Playstation 4 Pro</h3>
+      <p>Storage 1 GB</p>
+      <p>Rp. 30.000/hari</p>
+    </div>
+
+    <div class="product">
+      <img src="<?= base_url('template/images/ps5std.png')?>" alt="Product 2">
+      <h3>Playstation 5 SE</h3>
+      <p>Storage 825 GB</p>
+      <p>Rp. 50.000/hari</p>
+    </div>
+
+    <div class="product">
+      <img src="<?= base_url('template/images/ps5de.png')?>" alt="Product 2">
+      <h3>Playstation 5 DE</h3>
+      <p>Non Storage</p>
+      <p>Rp. 50.000/hari</p>
+    </div>
+
     
 
     <!-- Add more product entries as needed -->

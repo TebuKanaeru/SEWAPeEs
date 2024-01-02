@@ -11,7 +11,7 @@
               <p>
                 Terdapat berbagai pilihan tipe dengan harga terjangkau
               </p>
-              <a href="<?= site_url('shoplist') ?>">Sewa Sekarang</>
+              <a href="whatsapp://send?text=Hello&phone=+6283131370033">Sewa Sekarang</>
               </a>
             </div>
           </div>

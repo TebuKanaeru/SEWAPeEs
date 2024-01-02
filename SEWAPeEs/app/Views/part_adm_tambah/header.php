@@ -27,17 +27,39 @@
   <link href="<?= base_url('template/css/responsive.css')?>" rel="stylesheet" type="text/css" rel="stylesheet"/>
   <link href="<?= base_url('template/images/logotl.ico')?>" rel="stylesheet" rel="icon" type="image/x-icon"/>
 
-
 </head>
 
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        // Tangkap elemen menu dan submenu
+        const dataPelanggan = document.getElementById('dataPelanggan');
+        const submenuPelanggan = document.getElementById('submenuPelanggan');
+
+        // Tambahkan event listener untuk klik pada menu dataPelanggan
+        dataPelanggan.addEventListener('click', function (event) {
+            event.preventDefault(); // Mencegah link berpindah ke halaman lain
+            toggleSubmenu(submenuPelanggan);
+        });
+    });
+
+    // Fungsi untuk menampilkan atau menyembunyikan submenu
+    function toggleSubmenu(submenu) {
+        if (submenu.style.display === 'block') {
+            submenu.style.display = 'none';
+        } else {
+            submenu.style.display = 'block';
+        }
+    }
+</script>
+
 <body>
-  <div class="hero_area">
+  <div class="hero_area_adm">
     <!-- header section strats -->
     <header class="header_section">
       <div class="header_bottom">
         <div class="container-fluid">
           <nav class="navbar navbar-expand-lg custom_nav-container ">
-            <a class="navbar-brand" href="<?= site_url('/') ?>">
+            <a class="navbar-brand" href="<?= site_url('adm') ?>">
               <span>
                 SEWA PeEs
               </span>
@@ -50,15 +72,13 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav ">
                 <li class="nav-item active">
-                  <a class="nav-link" href="<?= base_url('/') ?>">Home <span class="sr-only">(current)</span></a>
-                <li class="nav-item">
-                  <a class="nav-link" href="<?= base_url('#session1') ?>">Produk</a>
-                </li>
-                 <li class="nav-item">
-                  <a class="nav-link" href="<?= base_url('#session2') ?>">Services</a>
+                  <a class="nav-link" href="<?= site_url('tambah') ?>"> Tambah Pelanggan</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="<?= base_url('#session3') ?>"> About</a>
+                  <a class="nav-link" href="<?= site_url('hapus') ?>"> Hapus Data</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="<?= site_url('/') ?>"> Logout</a>
                 </li>
                 </li>
               </ul>

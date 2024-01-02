@@ -60,6 +60,8 @@
                 <li class="nav-item">
                   <a class="nav-link" href="#session3"> About</a>
                 </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="<?= site_url('login') ?>"> Login (adm)</a>
                 </li>
               </ul>
             </div>
